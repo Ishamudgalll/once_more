@@ -77,7 +77,7 @@ def predict():
     
     
     #final_features = [np.array(int_features)]
-    prediction = predict1(model,"7549000212")
+    prediction = predict1(model,json)
     
     dic={}
     dic["key"]=prediction
