@@ -40,7 +40,7 @@ def predict1(model,listr):
     correlation_matrix = np.corrcoef(model)
 
     #i = "6117036094"
-    i=listr
+    i=listr[0]
     product_names = list(l)
     product_ID = product_names.index(i)
 
